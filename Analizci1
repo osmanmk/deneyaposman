@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+//Bu Proje Analizci(1) için Osman Mert K tarafından hazırlanmıştır.
+int main(){
+float yas1,yas2,yas3,x;
+cout<<"yas1 Giriniz\n";
+cin>>yas1;
+cout<<"yas2 Giriniz\n";
+cin>>yas2;
+cout<<"yas3 Giriniz\n";
+cin>>yas3;
+x=yas1+yas2+yas3;
+cout<<"3 kisinin yaslari toplami:"<< x<< "\n";
+return 0;
+}
