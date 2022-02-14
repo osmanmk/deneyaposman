@@ -1,3 +1,4 @@
+//Normalde Türkçe Karakter Kullanımı İçin Kod Ekledim Ama Çalışmazsa Yazılar Bozulabilir.
 //Hafta 4 Kodlayıcı 1 için Osman M  tarafından hazırlandı
 #include <iostream>
 #include <locale.h>
@@ -57,3 +58,53 @@ return 0;
 
 
 
+//Yaşla ilgili olan problem
+#include <iostream>
+#include <locale.h>
+using namespace std;
+
+int main(){
+setlocale(LC_ALL, "Turkish");
+int u;
+cout<<"Lütfen Yaş Giriniz.\n";
+cin>>u;
+if(u>18){
+ if(u<65){
+cout<<"20 TL ödenecektir.";
+ }else{
+cout<<"15 TL ödenecektir.";
+ }}else{
+cout<<"10 TL ödenecektir.";
+ }
+return 0;
+}
+
+
+//Puanla ilgili olan  problem
+#include <iostream>
+#include <locale.h>
+using namespace std;
+
+int main(){
+setlocale(LC_ALL, "Turkish");
+int x;
+cout<<"Lütfen 0-100 Arası Puan Giriniz.\n";
+cin>>x;
+cout<<"\n";
+if(x<=100&&x>=85){
+cout<<"Takdir Belgesi Almıştır.";
+}
+else if(x<85&&x>=70){
+cout<<"Teşekkür Belgesi Almıştır.";
+}
+else if(x<70&&x>=50){
+cout<<"Sınıfı Geçmiştir ama Belge Almamıştır.";
+}
+else if(x<50&&x>=0){
+cout<<"Sınıfı Geçememiştir.";
+}
+else{
+cout<<"Sistemi Yanıltmaya Çalıştığınızdan Dolayı Cezalandırıldınız,Bu Soruyu Çözünüz:P(x)=3x+2 olduðuna göre P(x) polinomunun (x-2)'den kalan kaçtır?";
+}
+return 0;
+}
