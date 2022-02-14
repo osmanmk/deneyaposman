@@ -1,1 +1,41 @@
+//Hafta 4 Kodlayıcı 1 için Osman M  tarafından hazırlandı
+#include <iostream>
+#include <locale.h>
+using namespace std;
+
+int main(){
+setlocale(LC_ALL, "Turkish");
+int x;
+cout<<"Lütfen Sayı Giriniz.\n";
+cin>>x;
+if(x%2==0){
+    if(x%4==0){
+     if(x==0){
+cout<<"Hocam 0'ı inadına deneyeceğinizi bildiğimden bu easter eggi koydum.\n";
+}else{
+cout<<"Girdiğiniz Sayı Çifttir ve Dörte Tam Bölünür.\n";
+}
+   } else{
+cout<<"Girdiğiniz Sayı Çifttir ama Dörte Tam Bölünmez.\n";
+}
+}
+else{
+    if(x%3==0){
+cout<<"Girdiğiniz Sayı Tektir ve Üçe Tam Bölünür.\n";
+}
+    else{
+cout<<"Girdiğiniz Sayı Tektir ama Üçe Tam Bölünmez.\n";
+    }
+
+}
+
+return 0;
+}
+
+
+
+
+
+//
+
 
