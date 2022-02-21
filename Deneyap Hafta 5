@@ -1,0 +1,40 @@
+//Kodlayıcı 1 için üretilmiştir.
+#include <iostream>
+using namespace std;
+int Toplam;
+int Sayi;
+int main(){
+for(int i=0;i<10;i++){
+cout<<i+1<<". Degeri Giriniz.";
+cin>>Sayi;
+Toplam=Toplam + Sayi;
+
+}
+cout<<Toplam;
+}
+
+
+
+
+
+//Kodlayıcı 4 için üretilmiştir.
+#include <iostream>
+using namespace std;
+int Toplam;
+int Sayi;
+int main(){
+for(int i=0;i<=100;i++){
+if(i%3==0){
+if(i%7==0){
+}else{
+Toplam=Toplam+1;
+}}
+else{}
+}
+cout<<"3 e bolunup 7 ye bolunmeyen "<<Toplam<<" sayi vardir";
+}
+
+
+
+
+
